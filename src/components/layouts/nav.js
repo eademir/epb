@@ -6,7 +6,7 @@ const Nav = () =>{
             <ul>
                 <li><a href="/">Anasayfa</a></li>
                 <li><a href="blog">Blog</a></li>
-                <li><a href="#">Hakkımda</a></li>
+                <li><a href="about-me">Hakkımda</a></li>
                 <li><a href="#">İletişim</a></li>
             </ul>
         </nav>
