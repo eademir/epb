@@ -7,7 +7,7 @@ const Nav = () =>{
                 <li><a href="/">Anasayfa</a></li>
                 <li><a href="blog">Blog</a></li>
                 <li><a href="about-me">Hakkımda</a></li>
-                <li><a href="#">İletişim</a></li>
+                <li><a href="contact">İletişim</a></li>
             </ul>
         </nav>
     )
