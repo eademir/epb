@@ -4,10 +4,11 @@ const Nav = () =>{
     return(
         <nav>
             <ul>
-                <li><a href="/">Anasayfa</a></li>
-                <li><a href="blog">Blog</a></li>
-                <li><a href="about-me">Hakkımda</a></li>
-                <li><a href="contact">İletişim</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="blog">My Blogs</a></li>
+                <li><a href="projects">My Projects</a></li>
+                <li><a href="about-me">About me</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
     )

@@ -4,23 +4,19 @@ import React, { Component } from 'react';
 import Nav from './../../components/layouts/nav'
 import Footer from './../../components/layouts/footer'
 import Phead from './../../components/layouts/phead'
-import Form from './../../components/layouts/contact-form'
-import Links from './../../components/layouts/contact-links'
+import ProjectList from './../../components/layouts/projectlist'
 
-class Contact extends Component {
+class Projects extends Component {
     render() {
         return (
            <main>
                <Nav/>
                <Phead/>
-               <div class='container'>
-                 <Form/>
-                 <Links/>
-               </div>
+               <ProjectList/>
                <Footer/>
            </main>
         )
     }
 }
 
-export default Contact
+export default Projects
