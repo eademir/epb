@@ -19,21 +19,22 @@ nav{
   z-index: 1;
   background-color: #fff;
   border-bottom: 2px solid #ccc;
+  height: 90px;
 }
 nav ul{
   list-style: none;
   width:700px;
   margin:auto;
   position: relative;
-  padding: 0 20px;
+  padding:0 20px;
 }
 nav ul li {
   display:inline-block;
   width:130px;
+  border-top: 2px solid transparent;
 }
 nav ul li:hover{
   border-top: 2px solid #000;
-  border-radius: 2px;
 }
 nav ul li a{
   -webkit-text-size-adjust: 100%;
@@ -43,10 +44,6 @@ nav ul li a{
   display: block;
   text-align: center;
   border-top: 4px solid transparent;
-  -moz-transition: padding .4s ease;
-  -o-transition: padding .4s ease;
-  -webkit-transition: padding .4s ease;
-  transition: padding .4s ease;
   opacity: .5;
 }
 nav ul li a svg{
@@ -58,12 +55,10 @@ nav ul li a svg{
 }
 nav ul li:hover > nav ul li a svg{
   opacity: 1;
-  font-size: 50px;
   color: #FFF;
 }
 nav ul li a:hover{
   opacity: 1;
-  font-size: 20px;
   color: #000;
 }
 header{

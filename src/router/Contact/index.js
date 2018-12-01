@@ -12,7 +12,7 @@ class Contact extends Component {
         return (
            <main>
                <Nav/>
-               <Phead/>
+               <Phead pageName='CONTACT'/>
                <div class='container'>
                  <Form/>
                  <Links/>

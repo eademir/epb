@@ -11,7 +11,7 @@ class Blog extends Component {
         return (
            <main>
              <Nav/>
-             <Phead/>
+             <Phead pageName='BLOG'/>
              <div class='blog'>
                <div class='container'>
                  <div class='row'>

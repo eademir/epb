@@ -11,7 +11,7 @@ class Projects extends Component {
         return (
            <main>
                <Nav/>
-               <Phead/>
+               <Phead pageName='PROJECTS'/>
                <ProjectList/>
                <Footer/>
            </main>

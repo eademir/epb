@@ -11,7 +11,7 @@ class About extends Component {
         return (
            <main>
                <Nav/>
-               <Phead/>
+               <Phead pageName='ABOUT ME'/>
                <AboutMe/>
                <Footer/>
            </main>

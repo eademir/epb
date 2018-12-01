@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import SliderImg from './sliderImg'
 
-class Slider extends Component {
-    render() {
-        return (
-            <div class='slier'>
-                <SliderImg/>
-           </div>
-        )
-    }
+const Slider = () => {
+  return (
+      <div class='slier'>
+          <SliderImg/>
+     </div>
+  )
 }
 
 export default Slider
