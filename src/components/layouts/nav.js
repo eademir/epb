@@ -11,6 +11,7 @@ const Nav = () =>{
                 <li title='Projects'><a href="projects"><FontAwesomeIcon icon={faBriefcase} /><br/>Projects</a></li>
                 <li title='About me'><a href="about-me"><FontAwesomeIcon icon={faAddressCard} /><br/>About me</a></li>
                 <li title='Contact'><a href="contact"><FontAwesomeIcon icon={faComments} /><br/>Contact</a></li>
+
             </ul>
         </nav>
     )
