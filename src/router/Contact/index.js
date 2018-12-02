@@ -13,7 +13,7 @@ class Contact extends Component {
            <main>
                <Nav/>
                <Phead pageName='CONTACT'/>
-               <div class='container'>
+               <div class='container contact'>
                  <Form/>
                  <Links/>
                </div>

@@ -161,3 +161,9 @@ footer p{
 .slider{
   position: relative;
 }
+.contact .in{
+  margin: 100px 0;
+}
+.contact{
+  height: 620px;
+}
