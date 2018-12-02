@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 
+import Project from './project'
 
 class ProjectList extends Component {
     render() {
         return (
            <div class='container'>
                <div class='row'>
-                  <div class='col-md-3'>
-
-                  </div>
+                  <Project/>
+                  <Project/>
+                  <Project/>
+                  <Project/>
+                  <Project/>
+                  <Project/>
+                  <Project/>
+                  <Project/>
+                  <Project/>
+                  <Project/>
                </div>
            </div>
         )

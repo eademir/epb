@@ -8,7 +8,8 @@ import Edu from '../../assets/img/edu.png'
 class Middle extends Component {
     render() {
         return (
-            <div class='container middle'>
+          <div class='middle'>
+            <div class='container'>
                 <div class='row'>
                     <div class='col-md-4'>
                         <div class='in'>
@@ -44,6 +45,7 @@ class Middle extends Component {
                     </div>
                 </div>
            </div>
+         </div>
         )
     }
 }
