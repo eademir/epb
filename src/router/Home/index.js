@@ -11,13 +11,15 @@ class Home extends Component {
       isLoading: true,
     }
   }
-  componentWillMount(){
-
+  componentWillMount() {
+      setTimeout(() => {
+          this.setState({
+              isLoading: false
+          })
+      })
   }
   componentDidMount(){
-    this.setState({
-      isLoading:false
-    })
+
   }
 
   shouldComponentUpdate(nextProps, nextState){
